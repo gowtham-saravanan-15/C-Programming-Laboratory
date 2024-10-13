@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int op,np,t,g;
+    printf("Enter the netprice and originalprice\n");
+    scanf("%d%d",&np,&op);
+   g=np-op;
+   int k=(float)g/(float)op*100;
+    printf("%d%%",k);
+    return 0;
+}
